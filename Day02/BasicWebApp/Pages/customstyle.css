@@ -1,0 +1,85 @@
+﻿*{
+    margin:0 auto; padding:0;
+}
+
+body {
+    
+}
+
+h1{
+    color :white;
+    background-color : darkseagreen;
+}
+
+h2{
+    color:blue;
+    font-weight : bolder;
+    font-style: italic;
+}
+
+#selector{
+    color : red;
+    text-align:center;
+}
+
+#wrap {
+    overflow :hidden;
+    /*min-width:1190px;*/
+    max-width:1000px
+}
+#header{
+    width:1000px; 
+    height:120px;
+    background-color:coral;
+}
+
+#container{
+    width:1000px;
+    background-color: aqua;
+}
+#NM_INT_LEFT{
+    float: left;
+    width: 700px;
+    background-color : orangered;
+}
+#NM_INT_RIGHT {
+    float: right;
+    width: 300px;
+    background-color: darkslateblue;
+}
+
+#footer{
+    width: 1000px;
+    height : 100px;
+    background-color: darkolivegreen;
+    float:left;
+}
+
+/*li{
+    color:white;
+
+    }
+*/
+.it{
+    color:white;
+}
+.mania{
+    color:yellow;
+}
+
+.sp{
+    background-color: black;
+}
+
+#it{
+    color:blue
+}
+
+h2:active{
+    color : black;
+}
+h2:hover{
+    color: blueviolet;
+    background-color: chocolate;
+}
+/* hover : 마우스는 그위에 띄웠을때*/
