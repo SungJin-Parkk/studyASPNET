@@ -56,7 +56,7 @@
         .outer-menu {
             float: left;
             width: 100px;
-            /*height: 200px;*/
+            height: 150px;
             line-height: 20px;
             padding: 10px 0 0 0; /* 보기싫은 아래쪽 회색 여백 제거 */
             position: relative;
@@ -97,6 +97,7 @@
             background: #faf7f7;
             border-top: 1px solid #cfcaca;
             box-shadow: 1px 3px 3px rgba(34, 25, 25, 0.4);
+            margin-left: 150px;
         }
 
             #main-navigation > ul {
