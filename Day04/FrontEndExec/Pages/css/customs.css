@@ -97,12 +97,13 @@
             background: #faf7f7;
             border-top: 1px solid #cfcaca;
             box-shadow: 1px 3px 3px rgba(34, 25, 25, 0.4);
-            margin-left: 150px;
+            
         }
 
             #main-navigation > ul {
                 overflow: hidden; /* 내영역은 가로끝까지 다 차지 */
                 text-align: center;
+                margin-left : 190px;
             }
 
                 #main-navigation > ul > li {
@@ -118,7 +119,6 @@
                         background: #e1dfdf;
                         border-radius: 2px;
                     }
-    
 
     /*<!-- 검색 영역 스타일 -->*/
    

@@ -36,4 +36,5 @@ ASP.NET Core 학습 리포지토리
  
  ## 5일차
 - ASP.NET Core 
- 
+      - 기본개요
+	  - 기본프로젝트
