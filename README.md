@@ -1,6 +1,7 @@
 # studyASPNET
 ASP.NET Core 학습 리포지토리
 
+
 ## 1일차
 1. Git/Github Desktop 설정
 2. Visual Studio 개발환경 설정
@@ -43,5 +44,8 @@ ASP.NET Core 학습 리포지토리
  ## 6일차
  1. ASP.NET Core
       - 게시판 리스트
+	  - 게시판 CRUD 완료
 	  - 게시판 글 생성
 	  - trumbowyg 에디터 추가
+	  - Bootstrap 적용
+	  
