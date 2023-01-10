@@ -7,10 +7,12 @@
 <script src="~/lib/jquery/dist/jquery.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
 
+
 @if (TempData["success"] != null)
 {
     <script>
-        toastr.success('@TempData["success"]', '성공메시지');
+        toastr.options.positionClass = "toast-bottom-center";
+        toastr.success('@TempData["success"]', '성공메시지'); 
     </script>
 }
 
