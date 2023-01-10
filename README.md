@@ -51,5 +51,9 @@ ASP.NET Core 학습 리포지토리
 	  
 	  
 ## 7일차 
-![메인화면](https://raw.githubusercontent.com/SungJin-Parkk/studyASPNET/main/images/html_asptnet_screen01.png)	 
+1. ASP.NET Core
+       - 게시판 추가기능
+       - 페이징 기능
+       - 게시판 
+![메인화면](https://github.com/SungJin-Parkk/studyASPNET/blob/main/images/asptnet_screen01.png?raw=true)	 
 메인화면
