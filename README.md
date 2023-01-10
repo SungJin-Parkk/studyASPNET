@@ -55,5 +55,12 @@ ASP.NET Core 학습 리포지토리
        - 게시판 추가기능
        - 페이징 기능
        - 게시판 
+	   - 회원가입 진행 중
+	   
 ![메인화면](https://github.com/SungJin-Parkk/studyASPNET/blob/main/images/asptnet_screen01.png?raw=true)	 
 메인화면
+
+
+## 8일차
+1. ASP.NET Core
+       - 회원가입 완료
