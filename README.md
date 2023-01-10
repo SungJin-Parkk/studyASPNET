@@ -49,3 +49,11 @@ ASP.NET Core 학습 리포지토리
 	  - trumbowyg 에디터 추가
 	  - Bootstrap 적용
 	  
+	  
+## 7일차 
+1. ASP.NET Core
+       - 게시판 추가기능
+       - 페이징 기능
+       - 게시판 
+![메인화면](https://github.com/SungJin-Parkk/studyASPNET/blob/main/images/asptnet_screen01.png?raw=true)	 
+메인화면
