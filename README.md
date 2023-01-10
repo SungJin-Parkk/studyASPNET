@@ -49,3 +49,7 @@ ASP.NET Core 학습 리포지토리
 	  - trumbowyg 에디터 추가
 	  - Bootstrap 적용
 	  
+	  
+## 7일차 
+![메인화면](https://raw.githubusercontent.com/SungJin-Parkk/studyASPNET/main/images/html_asptnet_screen01.png)	 
+메인화면
