@@ -1,4 +1,5 @@
 ﻿@model IEnumerable<BoardWebApp.Models.Note>
+
 @*@{
    ViewData["Title"] = "게시판";
 }*@
@@ -17,10 +18,14 @@
 			<h2 class="text-primary">게시판 리스트</h2>
 		</div>
 		<div class="col text-end">
-			<a asp-controller="Note" asp-action="Create" class="btn btn-primary">
-				<i class="bi bi-file-earmark-plus"></i>
+			@if (signInManager.IsSignedIn(User))
+			{
+				<a asp-controller="Note" asp-action="Create" class="btn btn-primary btn-sm">
+				   <i class="bi bi-file-earmark-plus"></i>
 				글생성
-			</a>
+			 </a>
+			}
+			
 		</div>
 	</div>
 </div>
@@ -38,8 +43,11 @@
 							<th>@Html.DisplayNameFor(model => model.Title)</th>
 							<th>@Html.DisplayNameFor(model => model.ReadCount)</th>
 							<th>@Html.DisplayNameFor(model => model.PostDate)</th>
-
-							<th></th>
+							
+							@if (signInManager.IsSignedIn(User))
+							{
+								<th>수정 삭제</th>
+							}
 						</tr>
 					</thead>
 					<tbody>
@@ -58,14 +66,16 @@
 
 								<td>
 									<!-- 수정,상세,삭제 버튼-->
+									@if (signInManager.IsSignedIn(User))
+									{
+										<a asp-controller="Note" asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning btn-sm">
+											<i class="bi bi-pen-fill"></i>수정
+										</a>
 
-									<a asp-controller="Note" asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning">
-										<i class="bi bi-pen-fill"></i>수정
-										</a>	
-
-									<a asp-controller="Note" asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">
-										<i class="bi bi-trash3"></i>삭제
-									</a>
+										<a asp-controller="Note" asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger btn-sm">
+											<i class="bi bi-trash3"></i>삭제
+										</a>
+									}
 								</td>
 							</tr>
 						}

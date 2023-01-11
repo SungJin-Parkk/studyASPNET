@@ -67,4 +67,8 @@ ASP.NET Core 학습 리포지토리
 	   
 2. 결과 화면
 
+회원가입화면
 ![회원가입화면](https://github.com/SungJin-Parkk/studyASPNET/blob/main/images/asptnet_screen02.png?raw=true)
+
+템플릿 적용화면
+![회원가입화면](https://github.com/SungJin-Parkk/studyASPNET/blob/main/images/asptnet_screen03.png?raw=true)

@@ -2,5 +2,10 @@
 @using BoardWebApp
 @using BoardWebApp.Models
 @using Microsoft.AspNetCore.Identity @*신규 추가 2023.01.11*@
+@*회원가입, 로그인 화면 표시 위해 추가하는 객체
+	여기 추가하면 각페이지에 넣을 필요 없음!!
+*@
 
+@inject SignInManager<IdentityUser> signInManager
+@inject UserManager<IdentityUser> userManager
 @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
