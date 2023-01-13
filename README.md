@@ -63,7 +63,8 @@ ASP.NET Core 학습 리포지토리
 
 ## 8일차
 1. ASP.NET Core
-       - 회원가입 완료
+        - 회원가입 완료
+		- 세션관리
 	   
 2. 결과 화면
 
@@ -72,3 +73,21 @@ ASP.NET Core 학습 리포지토리
 
 템플릿 적용화면
 ![회원가입화면](https://github.com/SungJin-Parkk/studyASPNET/blob/main/images/asptnet_screen03.png?raw=true)
+
+## 9일차
+1. ASP.NET Core
+         - Bootstrap 템플릿 적용 1차 완료
+		 - 로그인계정으로 글쓰기
+		 - 메인화면 DB연동
+		 
+		 
+2. 개발화면
+
+
+## 10일차
+
+1. ASP.NET Core 
+    - 메인페이지 DB연동(관리자) 완료
+	- 권한관리
+	-전체 마무리
+2. 개발화면
